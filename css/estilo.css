@@ -1,0 +1,120 @@
+/*Limpar as formatações padroes*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #F3F3F3;
+}
+
+
+/*ID's*/
+
+#navegacao{
+	background: #FFFFFF;
+	border-bottom: 1px solid #D8D8D8;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+#area{
+	width: 720px;
+	margin: 0 auto;
+	
+}
+
+#menu{
+	float:right;
+	padding: 10px 0;
+}
+
+#logo{
+	float:left;
+}
+
+#area-principal{
+	margin: 61px auto 10px auto;
+	width: 720px;
+
+}
+
+#postagem{
+	background: #FFFFFF;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+}
+
+
+#link-post-out a:hover{
+	color: #B9C941;
+	text-decoration: underline;
+	background: none;
+	font-weight: bold;
+}
+
+#img-post-size{
+	width: 300px !important;
+	height: 300px;
+}
+
+h2{
+	color: #B9C941;
+}
+
+/**********Formatação do Menu********/
+/*Caminhos nao visitados*/
+a{
+	text-decoration: none;
+	padding: 6px 10px;
+}
+a:link{
+	color: #838383;
+}
+/*Links Visitados*/
+a:visited{
+	color: #838383;
+}
+/* Links Hover*/
+a:hover{
+	background: #b9c941;
+	color: #FFFFFF;
+	border-radius: 4px;
+}
+/*link Active*/
+a:active{
+	color: #535353;
+}
+
+
+/*Classes*/
+
+.verde{
+	color: #B9C941;
+}
+
+.data-da-postagem{
+	font-size: 14px;
+	border-bottom: 1px solid #F4F4F4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.img-postagem{
+	float: left;
+	margin: 0 10px 5px 0;
+}
+
+.postado{
+	border-left: 5px solid #D8D8D8;
+	padding: 5px 5px 5px 5px ;
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
+}
